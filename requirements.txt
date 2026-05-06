@@ -1,0 +1,6 @@
+torch>=1.13.0
+numpy>=1.23.0
+matplotlib>=3.5.0
+tqdm>=4.64.0
+pytest>=7.0.0
+segyio>=1.9.0; platform_system != "Windows"   # optional: only needed for SEG-Y support
